@@ -1,11 +1,12 @@
-body{padding-top:2em;}
+body{padding-top:2em;
+  background-color: #e0d9f7;}
 a[href^="http://"],a[href^="https://"] {text-decoration:underline;}
 a[href^="http://"]:hover ,a[href^="https://"]:hover {text-decoration:none;}
 
 :hover{transition: color ease .25s;}
-h1,h2,h3,h4,h5,h6{font-family: 'Archivo Black', sans-serif; margin-bottom: 1em; line-height:1.35;}
-h1{font-size:1.8em; color:#444;}
-h2{font-size:1.8em; color:#aaa;}
+h2,h3,h4,h5,h6{font-family: 'Ubuntu', sans-serif;; margin-bottom: 1em; line-height:1.35;}
+h1{font-family: 'Oswald', sans-serif; font-size:1.8em; color:#68ACEA}
+h2{font-size:1.8em; color:#394694;}
 h3{font-size:1.5em; color:#222;}
 h4{font-size:1.2em; color:#111;}
 h5,h6{font-size:1em; color:#000}
@@ -24,12 +25,14 @@ article{
   overflow: hidden;
   position:relative;
 }
-article img{margin-bottom:1em;}
+article img{
+  margin-bottom:1em;
+}
 article .nro{
   position: absolute;
   top:1em;
   right:1em;
-  background:#19839B;
+  background:#394694;
   color:white;
   width:2em;
   height:2em;
@@ -46,13 +49,13 @@ h3{line-height:1.3;}
 h5{line-height:1.4;}
 
 .masthead-brand {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .masthead-nav > li {
-  font-family: 'Archivo Black', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   display: inline-block;
 }
 .masthead-nav > li + li {
